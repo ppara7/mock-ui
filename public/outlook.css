@@ -1,0 +1,37 @@
+.main-header {
+    background-color: #EFEFEF;
+}
+
+.main-container {
+    overflow-x: auto;
+}
+
+.input-sm, select.iput-sm {
+    height: 40px;
+}
+
+.topopps-opp-details-view .row {
+    margin: 0 -10px;
+}
+
+.topopps-opp-details-view .form-group {
+    display: flex;
+    align-items: center;
+}
+
+.topopps-opp-details-view .panel,
+.topopps-opp-details-view .panel-heading,
+.topopps-opp-details-view .list-group-item {
+   border-color: transparent;
+}
+
+.topopps-opp-details-view .panel-default > .panel-heading {
+    background-color: transparent;
+}
+
+.topopps-opp-details-view .list-group-item,
+.topopps-opp-details-view .panel-body dd  {
+    min-height: 40px;		
+    border-radius: 3px;	
+    background-color: #F7F7F7;
+}
