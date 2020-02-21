@@ -37,6 +37,7 @@ label {
 
 .topopps-opp-details-view .panel-default > .panel-heading {
     background-color: transparent;
+    border-bottom: none;
 }
 
 .topopps-opp-details-view .panel-default > .panel-heading strong {
