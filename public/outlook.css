@@ -1,17 +1,23 @@
+label {
+    color: #222222;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: normal;
+}
+
 .main-header {
     background-color: #EFEFEF;
 }
 
 .main-container {
-    overflow-x: auto;
+    overflow-y: auto;
 }
 
-.input-sm, select.iput-sm {
-    height: 40px;
-}
-
-.topopps-opp-details-view .row {
-    margin: 0 -10px;
+.input-sm, select.input-sm {
+    height: 40px;	
+    border: 1px solid #D4D7DC;	
+    border-radius: 3px;		
+    background-color: #FFFFFF;
 }
 
 .topopps-opp-details-view .form-group {
@@ -25,13 +31,51 @@
    border-color: transparent;
 }
 
+.topopps-opp-details-view .panel-default {
+    box-shadow: none;
+}
+
 .topopps-opp-details-view .panel-default > .panel-heading {
     background-color: transparent;
 }
 
+.topopps-opp-details-view .panel-default > .panel-heading strong {
+    height: 24px;
+    color: #222222;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
 .topopps-opp-details-view .list-group-item,
 .topopps-opp-details-view .panel-body dd  {
-    min-height: 40px;		
     border-radius: 3px;	
+    border: none;
+    margin-bottom: 2px;
+    font-size: 13px;
+    line-height: 24px;
+    padding: 6px 8px;
     background-color: #F7F7F7;
+}
+
+.topopps-opp-details-view .panel-body dd p,
+.topopps-opp-details-view .mini-table label {
+    margin-bottom: 0;
+}
+
+.topopps-opp-details-view .mini-table span {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 17px;
+    margin-left: 4px;
+}
+
+.btn.new-task {
+    border-radius: 3px;
+    background-color: #9DCA3A;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.09);
+    border: 1px solid #D6D6D6;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 20px;
 }
