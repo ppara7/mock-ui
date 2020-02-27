@@ -1,6 +1,7 @@
 @font-face {
-    font-family: SegoeUI;
-    src: url(https://mock-css.firebaseapp.com/Segoe-UI.woff);
+    font-family: 'SegoeUI';
+    font-style: normal;
+    src: local('SegoeUI'), url(https://mock-css.firebaseapp.com/Segoe-UI.woff) format('woff2');
     font-weight: 400;
 }
 
