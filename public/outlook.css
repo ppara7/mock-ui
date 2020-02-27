@@ -1,6 +1,16 @@
+@font-face {
+    font-family: SegoeUI;
+    src: url(https://mock-css.firebaseapp.com/Segoe-UI.woff);
+    font-weight: 400;
+}
+
+body {
+    font-family: 'SegoeUI';
+}
+
 label {
     color: #222222;
-    font-size: 13px;
+    font-size: 11px;
     line-height: 24px;
     font-weight: normal;
 }
@@ -65,10 +75,14 @@ label {
 }
 
 .topopps-opp-details-view .mini-table span {
-    font-size: 13px;
+    font-size: 11px;
     font-weight: 600;
     line-height: 17px;
     margin-left: 4px;
+}
+
+.topopps-opp-details-view .health svg text {
+    font-size: 1.1em !important;
 }
 
 .btn.new-task {
